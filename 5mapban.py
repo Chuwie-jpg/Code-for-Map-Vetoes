@@ -1,5 +1,5 @@
-# Map Pool
-maps = ["Abyss", "Ascent", "Bind", "Haven", "Sunset", "Pearl", "Split"]
+# Map Pool Patch 10.04
+maps = ["Ascent", "Fracture", "Haven", "Icebox", "Lotus", "Pearl", "Split"]
 
 # Function to validate user input
 def get_valid_input(prompt, valid_options):
@@ -98,8 +98,8 @@ def map_veto_bo5(team_a, team_b):
         print(f"An error occurred: {e}")
 
 # Example teams
-team_a = "Natus Vincere"
-team_b = "G2 Esports"
+team_a = "TEAM ALPHA"
+team_b = "TEAM BETA"
 
 # Start the Map Veto for BO5
 map_veto_bo5(team_a, team_b)

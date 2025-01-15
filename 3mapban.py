@@ -1,5 +1,5 @@
-# Map Pool
-maps = ["Abyss", "Ascent", "Bind", "Haven", "Sunset", "Pearl", "Split"]
+# Map Pool Patch 10.04
+maps = ["Ascent", "Fracture", "Haven", "Icebox", "Lotus", "Pearl", "Split"]
 
 # Function to simulate map veto
 def map_veto(team_a, team_b):
@@ -82,8 +82,8 @@ def map_veto(team_a, team_b):
     print(f"MAP 3: {map_3} - {team_a} starts on {side_a3}")
 
 # Example teams
-team_a = "Praxis Esports"
-team_b = "7SEPTCREW"
+team_a = "TEAM ALPHA"
+team_b = "TEAM BETA"
 
 # Start the Map Veto
 map_veto(team_a, team_b)
